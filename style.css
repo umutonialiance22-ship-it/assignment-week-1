@@ -37,3 +37,17 @@ li {
 p {
     line-height: 1.6;
 }
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    main {
+        width: 100%;
+    }
+}
